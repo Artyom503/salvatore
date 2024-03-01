@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Cours de chant avec Salvatore Adamo</title>
+  <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/theme-styles.min.css" rel="stylesheet" type="text/css" media="all">
+  <style>
+    @keyframes hideLoader {
+      0% {
+        width: 100%;
+        height: 100%;
+      }
+
+      100% {
+        width: 0;
+        height: 0;
+      }
+    }
+
+    body>div.loader {
+      position: fixed;
+      background: white;
+      width: 100%;
+      height: 100%;
+      z-index: 1071;
+      opacity: 0;
+      transition: opacity .5s ease;
+      overflow: hidden;
+      pointer-events: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    body:not(.loaded)>div.loader {
+      opacity: 1;
+    }
+
+    body:not(.loaded) {
+      overflow: hidden;
+    }
+
+    body.loaded>div.loader {
+      animation: hideLoader .5s linear .5s forwards;
+    }
+
+    /* Typing Animation */
+    .loading-animation {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      animation: typing 1s linear infinite alternate;
+      position: relative;
+      left: -12px;
+    }
+
+    @keyframes typing {
+      0% {
+        background-color: rgba(100, 100, 100, 1);
+        box-shadow: 12px 0px 0px 0px rgba(100, 100, 100, 0.2),
+          24px 0px 0px 0px rgba(100, 100, 100, 0.2);
+      }
+
+      25% {
+        background-color: rgba(100, 100, 100, 0.4);
+        box-shadow: 12px 0px 0px 0px rgba(100, 100, 100, 2),
+          24px 0px 0px 0px rgba(100, 100, 100, 0.2);
+      }
+
+      75% {
+        background-color: rgba(100, 100, 100, 0.4);
+        box-shadow: 12px 0px 0px 0px rgba(100, 100, 100, 0.2),
+          24px 0px 0px 0px rgba(100, 100, 100, 1);
+      }
+    }
+  </style>
+</head>
+
+<body class="loaded">
+  <div class="loader">
+    <div class="loading-animation"></div>
+  </div>
+  <div class="navbar-container ">
+    <nav class="navbar navbar-expand-lg navbar-dark" data-overlay="" data-sticky="top">
+      <div class="container">
+        <a class="navbar-brand fade-page" href="/">
+          Salvatore Adamo
+        </a>
+                <div class="collapse navbar-collapse justify-content-end">
+          <div class="py-2 py-lg-0">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link" aria-expanded="false" aria-haspopup="true">Page d'accueil</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link" aria-expanded="false" aria-haspopup="true">Déclaration de confidentialité</a>
+              </li>
+              <!--li class="nav-item">
+                <a href="#contactForm" class="nav-link" aria-expanded="false" aria-haspopup="true">Ceny</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contactForm" class="nav-link" aria-expanded="false" aria-haspopup="true">Lokalizacja</a>
+              </li>
+              < <li class="nav-item">
+                  <a href="/our-tutors" class="nav-link fade-page" aria-expanded="false" aria-haspopup="true">More Teachers</a>
+                </li> -->
+              <li class="nav-item">
+                <a href="#contactForm" class="nav-link" aria-expanded="false" aria-haspopup="true">Cherchez-vous répondre?</a>
+              </li>
+            </ul>
+          </div><a href="#contactForm" class="btn btn-primary ml-lg-3">Contactez-nous</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <section class="bg-dark text-light header-inner p-0 jarallax o-hidden" data-overlay="" data-speed="0.2">
+    <img src="./images/bg.jpg" alt="Ewa Bem Singing" class="jarallax-img opacity-30">
+    <div class="container py-0 layer-2">
+      <div class="row my-4 my-md-6">
+        <div class="col-lg-9 col-xl-8">
+          <!--  <p class="lead mb-0">Willkommen bei</p>-->
+          
+          <br>
+          <a href="index.html" class="btn btn-primary shadow lift mr-1">
+            En savoir plus
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="decoration-wrapper">
+
+    </div>
+    <div class="divider">
+     <!--<img src="images/divider-3.svg" alt="graphical divider" data-inject-svg="">-->
+    </div>
+  </section>
+  <section>
+    <div class="container py-0 layer-2" style="font-size: 70%">
+    
+    
+
+<p>**Politique de Confidentialit&eacute; pour le Studio Harmonie Vocale**</p>
+
+<p>Date d'effet : 1er mars 2024</p>
+
+<p>1. **Introduction :**  Le Studio Harmonie Vocale (&quot;nous,&quot; &quot;notre,&quot; ou &quot;nos&quot;) reconna&icirc;t l'importance de prot&eacute;ger la confidentialit&eacute; et la vie priv&eacute;e de nos utilisateurs. Cette Politique de Confidentialit&eacute; d&eacute;crit les mesures que nous prenons pour sauvegarder toute information personnelle ou sensible collect&eacute;e via notre site web d'enseignement du chant.</p>
+
+<p>2. **Collecte d'informations :**  Nous pouvons collecter les types d'informations suivants :  - Informations Personnelles : Nom, coordonn&eacute;es et autres informations fournies lors de l'inscription ou lors de l'utilisation de nos services.  - Informations de Paiement : D&eacute;tails n&eacute;cessaires pour le traitement des paiements de nos services.  - Informations d'Utilisation : Informations sur la mani&egrave;re dont les utilisateurs interagissent avec notre site web et nos services.</p>
+
+<p>3. **Utilisation des Informations :**  Nous utiliserons les informations collect&eacute;es dans les buts suivants :  - Fournir et am&eacute;liorer nos services d'enseignement vocal.  - Traiter les paiements et g&eacute;rer les comptes utilisateur.  - Personnaliser l'exp&eacute;rience utilisateur et la communication.  - Analyser l'utilisation du site web afin d'am&eacute;liorer nos services.</p>
+
+<p>4. **Mesures de Confidentialit&eacute; :**  Nous mettons en place les mesures suivantes pour assurer la confidentialit&eacute; des informations utilisateur :  - Chiffrement : Nous utilisons des protocoles de chiffrement conformes &agrave; l'industrie pour prot&eacute;ger les donn&eacute;es lors de la transmission.  - Contr&ocirc;les d'Acc&egrave;s : L'acc&egrave;s aux informations utilisateur est restreint aux seuls membres du personnel autoris&eacute;s.  - Accords de Confidentialit&eacute; : Notre personnel est li&eacute; par des accords de confidentialit&eacute; pour prot&eacute;ger les informations utilisateur.</p>
+
+<p>5. **Divulgation &agrave; des Tiers :**  Nous ne vendons, n'&eacute;changeons, ni ne transf&eacute;rons autrement les informations utilisateur &agrave; des parties ext&eacute;rieures. Cependant, nous pouvons partager des informations avec des tiers de confiance qui nous aident &agrave; exploiter notre site web et &agrave; fournir des services, sous r&eacute;serve d'accords de confidentialit&eacute;.</p>
+
+<p>6. **Contr&ocirc;le Utilisateur :**  Les utilisateurs ont le droit de consulter, mettre &agrave; jour ou supprimer leurs informations personnelles. Les utilisateurs peuvent g&eacute;rer leurs param&egrave;tres de confidentialit&eacute; via les param&egrave;tres de leur compte sur notre site web.</p>
+
+<p>7. **Incidents de S&eacute;curit&eacute; :**  En cas de violation de donn&eacute;es ou d'incident de s&eacute;curit&eacute;, nous notifierons rapidement les utilisateurs concern&eacute;s et prendrons les mesures n&eacute;cessaires pour att&eacute;nuer l'impact.</p>
+
+<p>8. **Conformit&eacute; aux Lois :**  Nous nous conformons &agrave; toutes les lois et r&eacute;glementations applicables en mati&egrave;re de protection des donn&eacute;es. Tout changement apport&eacute; &agrave; cette Politique de Confidentialit&eacute; sera communiqu&eacute; aux utilisateurs.</p>
+
+<p>9. **Vie Priv&eacute;e des Enfants :**  Notre site web ne s'adresse pas aux personnes de moins de 13 ans. Nous ne collectons d&eacute;lib&eacute;r&eacute;ment aucune information personnelle aupr&egrave;s des enfants. Si vous pensez qu'un enfant nous a fourni des informations personnelles, veuillez nous contacter pour les faire supprimer.</p>
+
+<p>10. **Coordonn&eacute;es :**  Si vous avez des questions ou des pr&eacute;occupations concernant cette Politique de Confidentialit&eacute;, veuillez contacter le Studio Harmonie Vocale &agrave; :  Adresse : 123, Rue M&eacute;lodie, Ville Harmonie, HS 54321  Email : info@studioharmonievocale.com  Num&eacute;ro de T&eacute;l&eacute;phone : (555) 123-4567</p>
+
+<p>En utilisant notre site web d'enseignement vocal, vous acceptez les termes d&eacute;crits dans cette Politique de Confidentialit&eacute;. Nous pouvons mettre &agrave; jour cette politique de temps &agrave; autre, et tout changement sera publi&eacute; sur cette page.</p>
+
+<p>Studio Harmonie Vocale 123, Rue M&eacute;lodie, Ville Harmonie, HS 54321 Email : info@studioharmonievocale.com T&eacute;l&eacute;phone : (555) 123-4567</p>
+</div>
+  </section>
+ 
+  <footer class="pb-5 bg-primary-3 text-light" id="footer">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col">
+
+        </div>
+      </div>
+      <div class="row justify-content-center text-center">
+        <div class="col-xl-10">
+          <small class="text-muted">©<span id="year"></span> • All rights
+            reserved • <a href="#">Déclaration de confidentialité</a> •
+            <a href="#">Politique en matière de cookies</a> •
+            <a href="#">Conditions d'utilisation</a> •
+          </small>
+        
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  
+
+
+</body>
+
+</html>
